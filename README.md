@@ -1,1 +1,1 @@
-# server-setup-automation
+# Server setup automation with Python
