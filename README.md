@@ -13,7 +13,9 @@
 ### Prerequisites
 
 * The first time you have to have Python installed on your computer. If you don't have Python installed, you can install Python [here](https://www.python.org/downloads/)
-  
+* Ensure that the target operating system you intend to automate uses [Ubuntu](https://ubuntu.com/)
+* If you require the Ubuntu operating system, you can install it by following the installation process provided [here](https://ubuntu.com/download)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Installation and Usage
