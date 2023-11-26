@@ -42,7 +42,9 @@
     pip install python-dotenv
    ```
 
-6. Run this repository on your local machine
+6. Implemented a script to eliminate the need for password entry when executing sudo on the destination server you want to automate. Refer to the instructions [**here**](https://www.cyberciti.biz/faq/linux-unix-running-sudo-command-without-a-password/) for adding the script.
+
+7. Run this repository on your local machine
 
    ```sh
     python3 main.py
