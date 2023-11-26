@@ -53,7 +53,5 @@ for command in commands:
             print(f"Error running command start with apt update: {command}\n{error}")
     else:
         output, error = run_ssh_command(command)
-        if error:
-            print(f"Error running command: {command}\n{error}")
 
     print(f"Command executed successfully: {command}\n{output}")
