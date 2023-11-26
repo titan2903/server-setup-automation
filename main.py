@@ -31,7 +31,7 @@ commands = [
 def run_ssh_command(command):
     client = paramiko.SSHClient()
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    client.connect(hostname, username=username, password=password)
+    client.connect(hostname, username=username, password=password, allow_agent=False)
     
     stdin, stdout, stderr = client.exec_command(command)
     output = stdout.read().decode('utf-8')
